@@ -7,14 +7,14 @@ import "./styles/style.css";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Navbar />
       <section className="grid container">
         <Intro />
         <New />
         <Card />
       </section>
-    </div>
+    </main>
   );
 }
 
