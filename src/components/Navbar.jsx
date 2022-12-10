@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import menuOpen from "../assets/images/icon-menu.svg";
 import menuClose from "../assets/images/icon-menu-close.svg";
 import Logo from "../assets/images/logo.svg";
@@ -6,15 +6,15 @@ import Logo from "../assets/images/logo.svg";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
-  useEffect(() => {
-    if (menu) {
+  const handleMenu = () => {
+    const newMenu = !menu;
+    setMenu(!menu);
+    if (newMenu) {
       document.body.classList.add("open");
     } else {
       document.body.classList.remove("open");
     }
-  }, [menu]);
-
-  const handleMenu = () => setMenu(!menu);
+  };
 
   return (
     <nav className="menu container">
