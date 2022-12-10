@@ -1,6 +1,6 @@
 ## Welcome! 👋
 
-![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
+![Design preview for the News homepage coding challenge](./src/design/desktop-preview.jpg)
 
 # Frontend Mentor - News homepage solution
 
@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://briuwu-news-homepage.netlify.app/](https://briuwu-news-homepage.netlify.app/)
 
 ### Built with
 
