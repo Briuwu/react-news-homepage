@@ -30,7 +30,7 @@ const Card = () => {
       <img className="card-img" src={item.img} alt={item.title} />
       <div className="card-info">
         <p className="card-info-number">{item.number}</p>
-        <p className="card-info-title">{item.title}</p>
+        <h3 className="card-info-title">{item.title}</h3>
         <p className="card-info-desc">{item.desc}</p>
       </div>
     </article>
